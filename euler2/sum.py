@@ -9,7 +9,7 @@ b = 2
 
 total = 0
 
-while(b < fm):
+while(a <= fm):
     # add number if even
     print('consider')
     print(a)
@@ -25,5 +25,10 @@ while(b < fm):
 print(total)
 
 
-
+#r1#
 # running out of time. count is close but not accurate - messed up a and b
+
+#r2#
+#problem is that we miss 1346269 + 2178309 < 4000000 because of how
+#the while statement was made. i replaced while b "blah" with while a "blah"
+#
